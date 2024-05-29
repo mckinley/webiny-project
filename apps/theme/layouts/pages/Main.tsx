@@ -24,11 +24,11 @@ const Layout = styled.div`
     }
 `;
 
-interface StaticProps {
+interface mainProps {
     children: React.ReactNode;
 }
 
-const Static = ({ children }: StaticProps) => {
+const main = ({ children }: mainProps) => {
     return (
         <Layout>
             <Global styles={globalStyles} />
@@ -37,4 +37,4 @@ const Static = ({ children }: StaticProps) => {
     );
 };
 
-export default Static;
+export default main;
