@@ -7,7 +7,7 @@ import { ThemePlugin } from "@webiny/app-website";
 import theme from "./theme";
 
 // Default layouts used by Page Builder pages and Form Builder forms.
-import MainLayout from "./layouts/pages/Main";
+import BlankLayout from "./layouts/pages/Blank";
 import StaticLayout from "./layouts/pages/Static";
 import DefaultFormLayout from "./layouts/forms/DefaultFormLayout";
 
@@ -17,9 +17,9 @@ export default () => [
     new ThemePlugin(theme),
 
     new PbPageLayoutPlugin({
-        name: "main",
-        title: "Main page",
-        component: MainLayout
+        name: "blank",
+        title: "Blank page",
+        component: BlankLayout
     }),
 
     new PbPageLayoutPlugin({

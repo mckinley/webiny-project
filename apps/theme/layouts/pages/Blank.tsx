@@ -24,11 +24,11 @@ const Layout = styled.div`
     }
 `;
 
-interface mainProps {
+interface Props {
     children: React.ReactNode;
 }
 
-const main = ({ children }: mainProps) => {
+const Blank = ({ children }: Props) => {
     return (
         <Layout>
             <Global styles={globalStyles} />
@@ -37,4 +37,4 @@ const main = ({ children }: mainProps) => {
     );
 };
 
-export default main;
+export default Blank;
