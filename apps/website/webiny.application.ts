@@ -9,7 +9,7 @@ export default createWebsiteApp({
                 domains: ["mustacherides.com", "*.mustacherides.com"],
                 sslSupportMethod: "sni-only",
                 acmCertificateArn:
-                    "arn:aws:acm:us-west-1:905418069383:certificate/5473c931-cb36-4335-afbd-33424f271b78"
+                    "arn:aws:acm:us-east-1:905418069383:certificate/f8bbe712-0cd8-4492-973c-259b0c05e283"
             };
         }
     }
