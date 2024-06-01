@@ -39,4 +39,4 @@ If you want to keep a terminal session only for dev:
 
 Single use:
 
-`AWS_PROFILE=dev-mustacherides yarn webiny deploy`
+`AWS_PROFILE=dev-mustacherides yarn webiny deploy --env dev`
